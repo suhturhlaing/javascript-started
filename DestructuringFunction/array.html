@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <!-- rest paremeter using -->
+    <!-- <script>
+        let numbers = [1, 2, 3, 50];
+
+        let [one, two, ...three] = numbers;
+
+        console.log(one);
+        console.log(two);
+        console.log(three);
+
+    </script> -->
+
+
+    <!-- default varaible assing or optional value assign -->
+    <!-- <script>
+        let numbers = [1, 2];
+
+        let [one, two, three = 50] = numbers;
+
+        console.log(one);
+        console.log(two);
+        console.log(three);
+
+    </script> -->
+
+    <!-- <script>
+        function input([a, b, c]) {
+            let d = a * b;
+            console.log(d);
+        }
+        input([3, 2]);
+    </script> -->
+
+    <script>
+        // function bottle(bottles) {
+        //     let [bottle, water] = bottles;
+        //     console.log(bottle);
+        //     console.log(water);
+        // }
+        // bottle(['red', 'blue']);
+
+        // function bottle() {
+        //     let a = ['bottle', 'water'];
+        //     return a;
+        // }
+        // let [red, blue] = bottle();
+        // console.log(red);
+        // console.log(blue);
+
+
+        function myFunction(...p) {
+            let [p1, p2, ...p3] = p;
+            console.log(p1);
+            console.log(p2);
+            console.log(p3);
+        }
+        myFunction("one", "two", "three", "four");
+
+
+
+
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>

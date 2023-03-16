@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <!-- object assign createx -->
+    <!-- <script type="text/javascript">
+        const person = {
+            name: 'John',
+            age: 25,
+            gender: 'female'
+        };
+
+        let { name, age, gender = "unknow" } = person;
+
+        console.log(name);
+        console.log(age);
+        console.log(gender);
+    </script> -->
+
+    <!-- function call -->
+    <!-- <script type="text/javascript">
+        const person = {
+            name: 'John',
+            age: 25,
+            gender: 'female'
+        };
+
+        function personDetail({ name, age }) {
+            console.log(`the name is ${name} and the age is ${age}`);
+        }
+        personDetail(person);
+    </script> -->
+
+    <!-- using rest parameter -->
+    <script type="text/javascript">
+        function myFunction(p) {
+            let { name, age } = p;
+            console.log("name", name);
+            console.log("age", age);
+        }
+        myFunction({ name: "John", age: 15 });
+    </script>
+
+</body>
+
+</html>
