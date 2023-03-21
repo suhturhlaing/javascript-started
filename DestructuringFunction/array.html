@@ -52,13 +52,25 @@
         // console.log(blue);
 
 
-        function myFunction(...p) {
-            let [p1, p2, ...p3] = p;
-            console.log(p1);
-            console.log(p2);
-            console.log(p3);
-        }
-        myFunction("one", "two", "three", "four");
+        // function myFunction(...p) {
+        //     let [p1, p2, ...p3] = p;
+        //     console.log(p1);
+        //     console.log(p2);
+        //     console.log(p3);
+        // }
+        // myFunction("one", "two", "three", "four");
+
+
+        // another way
+        let numbers = ["one", "two", "three", "four"]
+
+        const [p1, p2, ...p3] = numbers;
+        console.log(p1);
+        console.log(p2);
+        console.log(p3);
+
+
+
 
 
 
